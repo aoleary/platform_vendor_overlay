@@ -38,5 +38,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/overlay/dictionaries
 # Plugins
 include packages/apps/PotatoPlugins/plugins.mk
 
+# Include QS Style files
+include vendor/overlay/QS/qsstyle.mk
+
 # Sounds
 include vendor/overlay/sounds.mk
