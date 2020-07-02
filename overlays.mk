@@ -43,3 +43,6 @@ include vendor/overlay/QS/qsstyle.mk
 
 # Sounds
 include vendor/overlay/sounds.mk
+
+# Switch Styles
+include vendor/overlay/switch/switch.mk
